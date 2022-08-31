@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('echo') {
+    stage('output') {
       steps {
-        sh 'echo "hello"'
+        sh 'echo \'hello\''
       }
     }
 
