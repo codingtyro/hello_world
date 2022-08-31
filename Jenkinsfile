@@ -9,7 +9,7 @@ pipeline {
 
     stage('2') {
       steps {
-        timeout(time: 10)
+        echo '11'
       }
     }
 
