@@ -23,12 +23,5 @@ pipeline {
 	  echo "hello,world"
      }
     }
-    stage('test'){
-	steps{
-	retry(3){
-	sh “./test.sh”
-	}
-	}
-     }
   }
 }
