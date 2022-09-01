@@ -26,7 +26,7 @@ pipeline {
     stage('test'){
 	steps{
 	retry(3){
-	sh './test.sh'
+	sh “./test.sh”
 	}
 	}
      }
