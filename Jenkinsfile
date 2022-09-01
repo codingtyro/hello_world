@@ -23,10 +23,6 @@ pipeline {
 	  echo "hello,world"
      }
     }
-    stage('test'){
-	steps{
-	sh './test.sh'
-	}
-	}
+    
   }
 }
