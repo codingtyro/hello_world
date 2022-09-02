@@ -18,11 +18,12 @@ pipeline {
         sleep 10
       }
     }
+
     stage('4') {
-	steps {
-	  sh 'test.sh'
-     }
+      steps {
+        bat(script: 'hello.bat', returnStatus: true)
+      }
     }
-    
+
   }
 }
