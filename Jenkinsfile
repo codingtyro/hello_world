@@ -20,7 +20,7 @@ pipeline {
     }
     stage('4') {
 	steps {
-	  sh 'test.sh'
+	  echo 'hello,world'
      }
     }
     
