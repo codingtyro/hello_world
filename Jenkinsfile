@@ -18,11 +18,18 @@ pipeline {
         sleep 10
       }
     }
+
     stage('4') {
+<<<<<<< HEAD
 	steps {
 	  echo 'hello,world'
      }
+=======
+      steps {
+        bat(script: 'hello.bat', returnStatus: true)
+      }
+>>>>>>> 91d90e194daf67a436977d28b8e2a2a2c942e16f
     }
-    
+
   }
 }
